@@ -1,0 +1,7 @@
+youtube-dl --geo-bypass --write-description --write-info-json --write-annotations --write-all-thumbnails --sub-lang en --write-sub --write-auto-sub --output %(uploader)s/%(playlist)s/%(playlist_index)s-%(title)s-%(id)s.%(ext)s --no-overwrites "https://www.youtube.com/watch?v=v_hR4K4auoQ"
+
+youtube-dl --geo-bypass --write-description --write-info-json --write-annotations --write-all-thumbnails --sub-lang en --write-sub --write-auto-sub --output %(uploader)s/%(playlist)s/%(playlist_index)s-%(title)s-%(id)s.%(ext)s --no-overwrites "https://www.youtube.com/user/Firebase/playlists"
+
+youtube-dl --geo-bypass --write-description --write-info-json --write-annotations --write-all-thumbnails --sub-lang en --write-sub --write-auto-sub --output %(uploader)s/%(playlist)s/%(playlist_index)s-%(title)s-%(id)s.%(ext)s --no-overwrites "https://www.youtube.com/watch?v=v_hR4K4auoQ&list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ"
+
+youtube-dl --geo-bypass --write-description --write-info-json --write-annotations --write-all-thumbnails --sub-lang en --write-sub --write-auto-sub --output %(uploader)s/%(playlist)s/%(playlist_index)s-%(title)s-%(id)s.%(ext)s --no-overwrites "https://www.youtube.com/user/Firebase/videos"

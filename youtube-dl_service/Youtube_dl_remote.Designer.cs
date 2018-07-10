@@ -1,6 +1,6 @@
 ﻿namespace youtube_dl_service
 {
-    partial class Service1
+    partial class Youtube_dl_remote
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // Youtube_dl_remote
+            // 
+            this.CanPauseAndContinue = true;
+            this.ServiceName = "Youtube_dl_remote";
+
         }
 
         #endregion

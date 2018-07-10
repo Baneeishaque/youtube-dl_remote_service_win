@@ -16,7 +16,7 @@ namespace youtube_dl_service
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new Youtube_dl_remote()
             };
             ServiceBase.Run(ServicesToRun);
         }
